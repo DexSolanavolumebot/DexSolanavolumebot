@@ -1,0 +1,50 @@
+.telegram-chat {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #121212;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.telegram-message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 80%;
+    position: relative;
+}
+
+.telegram-user {
+    background-color: #6a1b9a;
+    align-self: flex-end;
+    color: white;
+}
+
+.telegram-bot {
+    background-color: #424242;
+    align-self: flex-start;
+    color: white;
+}
+
+.telegram-button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.telegram-button:hover {
+    background-color: #7b1fa2;
+}
+
+@media (max-width: 600px) {
+    .telegram-chat {
+        width: 100%;
+    }
+}
